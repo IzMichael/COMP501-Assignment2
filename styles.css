@@ -1,0 +1,112 @@
+* {
+    font-family: 'Plus Jakarta Sans';
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: #e2e8f0;
+    height: 100%;
+}
+
+nav {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 2rem 0rem 2rem 2rem;
+    height: 100%;
+}
+
+#content {
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.block {
+    padding: 1rem;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+}
+
+nav a {
+    padding: 0.5rem 1rem;
+    background-color: #fafafa;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a.active {
+    background-color: #215f9a;
+    color: #fafafa;
+}
+
+.space-above {
+    margin-top: 2rem;
+}
+
+.spacer {
+    flex: 1 1 0%;
+}
+
+/* Text Styles */
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+.sitetitle {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: #215f9a;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.pagetitle {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    background-color: #215f9a;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+}
+
+address {
+    text-align: center;
+    width: 100%;
+}
+
+/* Table */
+
+th, td {
+    padding-right: 1.5rem;
+}
+
+th {
+    text-align: left;
+}
