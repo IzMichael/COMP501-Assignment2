@@ -101,6 +101,12 @@ address {
     width: 100%;
 }
 
+.block a {
+    color: #215f9a;
+    text-decoration: underline;
+    display: inline;
+}
+
 /* Table */
 
 th, td {
