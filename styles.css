@@ -107,6 +107,16 @@ address {
     display: inline;
 }
 
+figure {
+    max-width: 32rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    margin-top: 1rem;
+}
+
 ul {
     list-style: disc;
     margin-left: 1.5rem;
