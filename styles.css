@@ -22,6 +22,9 @@ nav {
     align-items: center;
     padding: 2rem 0rem 2rem 2rem;
     height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #content {
@@ -115,6 +118,10 @@ figure {
 
 figcaption {
     margin-top: 1rem;
+}
+
+.center-text {
+    text-align: center;
 }
 
 ul {
